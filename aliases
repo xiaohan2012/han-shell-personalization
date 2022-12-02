@@ -1,0 +1,12 @@
+alias edit="emacs"
+
+alias ga="git add"
+alias gs="git status"
+alias gm="git commit"
+alias gpl="git pull"
+alias gpu="git push"
+alias scr="screen -r"
+alias ll="ls -al"
+# alias rtr="rm -rd ./data; python train.py --task conversion --config configs/prd/config_conversion_train_bhv.yaml"
+# alias tr="python train.py --task conversion --config configs/prd/dry.yaml"
+alias refresh="source ~/.zshrc"
