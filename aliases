@@ -10,3 +10,11 @@ alias ll="ls -al"
 # alias rtr="rm -rd ./data; python train.py --task conversion --config configs/prd/config_conversion_train_bhv.yaml"
 # alias tr="python train.py --task conversion --config configs/prd/dry.yaml"
 alias refresh="source ~/.zshrc"
+
+alias act="source .venv/bin/activate"
+
+alias mp="mpc pause"
+alias mpcrefresh="mpc clear; mpc update; mpc ls | mpc add"
+
+alias kp="kernprof -l "
+alias lp="python -m line_profiler "
