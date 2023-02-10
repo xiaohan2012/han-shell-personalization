@@ -2,6 +2,8 @@ alias edit="emacs"
 
 alias ga="git add"
 alias gs="git status"
+alias gb="git branch"
+alias gc="git checkout"
 alias gm="git commit"
 alias gpl="git pull"
 alias gpu="git push"
