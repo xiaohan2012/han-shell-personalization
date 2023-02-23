@@ -3,7 +3,7 @@ alias edit="emacs"
 alias ga="git add"
 alias gs="git status"
 alias gb="git branch"
-alias gc="git checkout"
+alias gco="git checkout"
 alias gm="git commit"
 alias gpl="git pull"
 alias gpu="git push"
@@ -20,3 +20,10 @@ alias mpcrefresh="mpc clear; mpc update; mpc ls | mpc add"
 
 alias kp="kernprof -l "
 alias lp="python -m line_profiler "
+
+# gsutil related
+alias gu="gsutil"
+alias gls="gsutil ls"
+alias gcat="gsutil cat"
+alias gcp="gsutil -o GSUtil:parallel_process_count=1 -o GSUtil:parallel_thread_count=24 -m cp"  # avoid the "haning at 99%" problem
+alias gssh="ssh -F ~/ssh_config"
