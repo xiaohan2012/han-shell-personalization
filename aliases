@@ -27,3 +27,6 @@ alias gls="gsutil ls"
 alias gcat="gsutil cat"
 alias gcp="gsutil -o GSUtil:parallel_process_count=1 -o GSUtil:parallel_thread_count=24 -m cp"  # avoid the "haning at 99%" problem
 alias gssh="ssh -F ~/ssh_config"
+
+
+alias startnb="jupyter notebook"
